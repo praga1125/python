@@ -1,0 +1,12 @@
+print ("string manipulation functions")
+statement = "we are the boys"
+print (statement.upper())
+print (statement.lower())
+print (statement.isupper())
+print (statement.islower())
+print (statement.replace("boys","animals"))
+print (statement.index("boys"))
+print(len(statement))
+print (statement.capitalize())
+print (statement.join("''"))
+print (statement.split("the"))
